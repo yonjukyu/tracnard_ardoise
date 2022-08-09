@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+ font: italic small-caps bold 16px/2 cursive;
+}
+button {
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: lightblue 3px 3px 7px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  &:active {
+    transform: translate(5px, 1px);
+    box-shadow: yellow 0 0 5px;
+  }
+}

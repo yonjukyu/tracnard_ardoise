@@ -1,0 +1,25 @@
+header{
+  text-align: center;
+  background-color: #ADD8E6;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: dimgrey 3px 7px 7px;
+  box-sizing: border-box;
+}
+h1{
+  font: small-caps bold 24px/1 sans-serif;
+}
+a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.active {
+  color: #666;
+  background-color: #00BFFF;
+}
+
